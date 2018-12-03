@@ -23,6 +23,7 @@ node {
 	sshagent(['Dockerhub']) {
 	sh "ssh -o StrictHostKeyChecking=no ec2-user@52.90.83.111 ${docker}"
 	sh "ssh -o StrictHostKeyChecking=no ec2-user@52.90.83.111 ${Docker_Command}"
+	sh "ssh -o StrictHostKeyChecking=no ec2-user@52.90.83.111 ${Docker_Command}"
 
 	}    
 	}    
