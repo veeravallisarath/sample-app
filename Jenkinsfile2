@@ -36,5 +36,8 @@ node {
     sh "ssh -o StrictHostKeyChecking=no ec2-user@172.31.90.229 ${command1}"
     }    
     }
-    }      
+    }
+    stage('EmailNotification') {
+    mail bcc: '', body: 'Total Job Completed Successfully', cc: '', from: '', replyTo: '', subject: 'Sampleapp', to: 'devops.mptech@gmail.com'    
+    }    
 }
