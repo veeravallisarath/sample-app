@@ -2,7 +2,7 @@
 mv target/*.war target/shipwick.war
 scp -i /home/ubuntu/ec2key.pem -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/wipro-myweb/target/myapp-SNAPSHOT-1.0-1.1.4.war ubuntu@34.217.148.218:/opt/tomcat8/webapps/
 
-##To pick latest version fron pom.xml and download##
+##To pick latest version fron pom.xml and download#####
 
 a=$(head -n 7 pom.xml | tail -n 1 |awk '{print $1}' | sed -e "s/<version>//" | sed 's/.\{10\}$//')
 or
