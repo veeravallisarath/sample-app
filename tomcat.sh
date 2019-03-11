@@ -31,3 +31,4 @@ scp -i /ec2key.pem -o StrictHostKeyChecking=no shipwrick.war ec2-user@54.244.198
     sh " echo \$(cat d.txt)"
     f = readFile 'd.txt'
     echo "The current date is ${f}"
+***********
