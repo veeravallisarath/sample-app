@@ -11,7 +11,7 @@ echo $a
 rm -rf *.war
 wget http://18.236.64.135:8081/repository/maven-releases/in/mpcechno/myapp/$a/myapp-$a.war
 mv *.war myapp5.war
-
+************
 
 or
 
