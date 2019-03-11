@@ -1,6 +1,6 @@
 echo "
 JobName: $JOB_NAME
-BuildStatus: $BUILD_STATUS
+BuildStatus: $JOB_STATUS
 BuildNumber: $BUILD_NUMBER
 BULDURL: $BUILD_URL
 NODENAME: $NODE_NAME
