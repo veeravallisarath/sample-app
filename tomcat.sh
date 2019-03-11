@@ -32,3 +32,20 @@ scp -i /ec2key.pem -o StrictHostKeyChecking=no shipwrick.war ec2-user@54.244.198
     f = readFile 'd.txt'
     echo "The current date is ${f}"
 ***********
+echo $JOB_NAME
+#echo $BUILD_NUMBER
+#echo $BUILD_STATUS
+echo $BUILD_URL
+#echo $BUILD_NUMBER
+echo $BUILD_ID
+echo $BUILD_URL
+echo $NODE_NAME
+echo $JOB_NAME
+echo $BUILD_TAG
+echo $JENKINS_URL
+echo $EXECUTOR_NUMBER
+echo $JAVA_HOME
+echo $WORKSPACE
+echo $GIT_COMMIT
+echo $GIT_URL
+echo $GIT_BRANCH
